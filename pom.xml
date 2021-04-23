@@ -61,13 +61,15 @@
                 </executions>
                 <configuration>
                     <rules>
-                        <limits>
+                        <rule>
+                            <limits>
                             <limit>
                                 <counter>LINE</counter>
                                 <value>COVEREDRATIO</value>
                                 <minimum>100%</minimum>
                             </limit>
                         </limits>
+                        </rule>
                     </rules>
                 </configuration>
             </plugin>
